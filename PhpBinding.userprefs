@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhpBinding/PhpBinding.addin.xml" ctype="Workbench">
+    <Files>
+      <File FileName="PhpBinding/PhpBinding.addin.xml" Line="42" Column="5" />
+      <File FileName="PhpBinding/PhpBinding/PhpLanguageBinding.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="PhpBinding" expanded="True">
+            <Node name="PhpBinding" expanded="True" />
+            <Node name="PhpBinding.addin.xml" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
