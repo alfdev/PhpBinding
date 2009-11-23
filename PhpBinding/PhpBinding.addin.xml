@@ -1,0 +1,66 @@
+<Addin id          = "PhpBinding"
+       name        = "Php Language Binding"
+       namespace   = "MonoDevelop"
+       author      = "Alfredo De Vito"
+       copyright   = "MIT X11"
+       url         = "http://www.monodevelop.com"
+       description = "Php Language binding"
+       category    = "Language bindings"
+       version     = "2.2">
+
+    <Runtime>
+        <Import assembly = "PhpBinding.dll"/>
+    </Runtime>
+
+    <Dependencies>
+        <Addin id = "Core"          version = "2.1.1"/>
+        <Addin id = "Core.Gui"      version = "2.1.1"/>
+        <Addin id = "Projects"      version = "2.1.1"/>
+        <Addin id = "Projects.Gui"  version = "2.1.1"/>
+        <Addin id = "Ide"           version = "2.1.1"/>
+        <Addin id = "Components"    version = "2.1.1"/>
+        <Addin id = "SourceEditor2" version = "2.1.1"/>
+    </Dependencies>
+    
+    <Extension path = "/MonoDevelop/Core/StockIcons">
+    	<StockIcon stockid = "md-php-file" resource = "source_php_32x32.png"/>
+    </Extension>
+    
+    <Extension path = "/MonoDevelop/Ide/FileFilters">
+		<FileFilter
+			id = "Php"
+			insertbefore = "AllFiles"
+			_label = "Php Files"
+			extensions = "*.php"/>
+	</Extension>
+    
+    <Extension path = "/MonoDevelop/Ide/ProjectTemplates">
+    	<ProjectTemplate
+    		id = "EmptyPhpProject"
+    		resource = "EmptyPhpProject.xpt.xml"/>
+    </Extension>
+    
+    <Extension path = "/MonoDevelop/Core/MimeTypes">
+    	<MimeType id="text/x-php" _description="Php source code" icon="md-php-file" isText="true">
+    		<File pattern="*.php" />
+    	</MimeType>
+    </Extension>
+    
+    <Extension path = "/MonoDevelop/ProjectModel/ProjectBindings">
+        <ProjectBinding
+        	id = "PhpProject"
+        	class = "PhpBinding.PhpProjectBinding"/>
+    </Extension>
+    
+    <Extension path = "/MonoDevelop/ProjectModel/LanguageBindings">
+        <LanguageBinding
+            id = "Php"
+            supportedextensions = ".php"
+            class = "PhpBinding.PhpLanguageBinding"/>
+  	</Extension>
+  	
+  	<Extension path="/MonoDevelop/Ide/TextEditorExtensions">
+  		<Class class="PhpBinding.PhpTextEditorExtension" />
+  	</Extension>
+</Addin>
+

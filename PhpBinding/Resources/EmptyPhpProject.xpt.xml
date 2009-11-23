@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Template
+    originator   = "Christian Hergert" 
+    created      = "03/21/2008"
+    lastModified = "03/21/2008">
+
+    <!-- Template Header -->
+    <TemplateConfiguration>
+        <_Name>Empty Php Project</_Name>
+        <_Category>Php</_Category>
+        <Icon>md-project|res:source_php_32x32.png</Icon>
+        <LanguageName>Php</LanguageName>
+        <_Description>Creates an empty Php solution.</_Description>
+    </TemplateConfiguration>
+    
+    <!-- Actions -->
+    <Actions>
+    	<Open filename = "index.php"/>
+    </Actions>
+
+    <!-- Template Content -->
+    <Combine name = "${ProjectName}" directory = ".">
+        <Project name = "${ProjectName}" directory = "." type = "Php">
+        	<Files>
+        		<File name="index.php" AddStandardHeader="True">
+        			<![CDATA[
+<?php
+	echo 'Hello, World!';
+?>
+					]]>
+        		</File>
+        	</Files>
+        </Project>
+    </Combine>
+</Template>
