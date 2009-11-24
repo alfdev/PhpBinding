@@ -174,4 +174,7 @@
     <Folder Include="PhpBinding\" />
     <Folder Include="Resources\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhpSyntaxMode.xml" />
+  </ItemGroup>
 </Project>

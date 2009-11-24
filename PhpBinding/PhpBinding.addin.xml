@@ -39,7 +39,7 @@
     		id = "EmptyPhpProject"
     		resource = "EmptyPhpProject.xpt.xml"/>
     </Extension>
-    
+       
     <Extension path = "/MonoDevelop/Core/MimeTypes">
     	<MimeType id="text/x-php" _description="Php source code" icon="md-php-file" isText="true">
     		<File pattern="*.php" />
