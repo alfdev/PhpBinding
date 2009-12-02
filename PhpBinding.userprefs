@@ -3,22 +3,19 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="PhpBinding/PhpBinding/PhpProjectBinding.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhpBinding/PhpBinding.addin.xml" ctype="Workbench">
     <Files>
-      <File FileName="../test_php/test_php/index.php" Line="1" Column="1" />
-      <File FileName="PhpBinding/PhpBinding.addin.xml" Line="1" Column="1" />
-      <File FileName="PhpBinding/PhpBinding/PhpProjectBinding.cs" Line="14" Column="4" />
-      <File FileName="PhpBinding/PhpBinding/PhpProject.cs" Line="15" Column="16" />
-      <File FileName="PhpBinding/PhpBinding/PhpLanguageBinding.cs" Line="8" Column="1" />
+      <File FileName="PhpBinding/PhpBinding.addin.xml" Line="40" Column="43" />
+      <File FileName="PhpBinding/Resources/EmptyPhpProject.xpt.xml" Line="5" Column="23" />
+      <File FileName="PhpBinding/Resources/EmptyPhpSourceFile.xpt.xml" Line="16" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="PhpBinding" expanded="True">
-            <Node name="PhpBinding" expanded="True">
-              <Node name="PhpProjectBinding.cs" selected="True" />
-            </Node>
+            <Node name="PhpBinding" expanded="True" />
             <Node name="Resources" expanded="True" />
+            <Node name="PhpBinding.addin.xml" selected="True" />
           </Node>
         </State>
       </Pad>

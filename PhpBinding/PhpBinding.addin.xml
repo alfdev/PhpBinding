@@ -34,6 +34,13 @@
 			extensions = "*.php"/>
 	</Extension>
     
+    <Extension path="/MonoDevelop/Ide/FileTemplates">
+    	<FileTemplate
+    		id="EmptyPhpSourceFile"
+    		resource="EmptyPhpSourceFile.xpt.xml"
+    	/>
+    </Extension>
+    
     <Extension path = "/MonoDevelop/Ide/ProjectTemplates">
     	<ProjectTemplate
     		id = "EmptyPhpProject"
@@ -61,6 +68,10 @@
   	
   	<Extension path="/MonoDevelop/Ide/TextEditorExtensions">
   		<Class class="PhpBinding.PhpTextEditorExtension" />
+  	</Extension>
+  	
+  	<Extension path="/MonoDevelop/ProjectModel/SerializableClasses">
+  		<DataType class="PhpBinding.PhpProject" />
   	</Extension>
 </Addin>
 

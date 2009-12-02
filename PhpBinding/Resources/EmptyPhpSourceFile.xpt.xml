@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Template
+    originator   = "Alfredo De Vito" 
+    created      = "12/02/2009"
+    lastModified = "12/02/2009">
+    
+    <TemplateConfiguration>
+    	<_Name>Empty Php File</_Name>
+    	<Icon>res:source_php_32x32.png</Icon>
+    	<_Category>Php</_Category>
+    	<ProjectType>Php</ProjectType>
+    	<_Description>Create an empty Php source file.</_Description>
+    </TemplateConfiguration>
+    
+    <TemplateFiles>
+    	<File DefautlExtension=".php" DefaultName="EmptyPhpSourceFile" />
+    </TemplateFiles>
+    
+</Template>

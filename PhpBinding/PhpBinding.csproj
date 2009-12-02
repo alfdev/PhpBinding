@@ -169,6 +169,9 @@
     <EmbeddedResource Include="Resources\source_php_32x32.png">
       <LogicalName>source_php_32x32.png</LogicalName>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\EmptyPhpSourceFile.xpt.xml">
+      <LogicalName>EmptyPhpSourceFile.xpt.xml</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PhpBinding\" />
