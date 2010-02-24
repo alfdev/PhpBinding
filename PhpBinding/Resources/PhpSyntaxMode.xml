@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxMode name="Php" mimeTypes="text/x-php">
+	<Property name="LineComment">//</Property>
+	<Property name="BlockCommentStart">/*</Property>
+	<Property name="BlockCommentEnd">*/</Property>
+	
+	<EolSpan color="comment.line" rule="Comment" tagColor="comment.tag.line">//</EolSpan>
+	
+	<Span color="comment.block" rule="Comment" tagColor="comment.tag.block">
+		<Begin>/*</Begin>
+		<End>*/</End>
+	</Span>
+	
+	<Keywords color="keyword.access">
+		<Word>$this</Word>
+	</Keywords>
+	
+	<Keywords color="keyword.selection">
+		<Word>if</Word>
+		<Word>else</Word>
+		<Word>elseif</Word>
+		<Word>switch</Word>
+		<Word>case</Word>
+		<Word>default</Word>
+	</Keywords>
+	
+	<Keywords color="keyword.iteration">
+		<Word>for</Word>
+		<Word>foreach</Word>
+		<Word>as</Word>
+		<Word>do</Word>
+		<Word>while</Word>
+	</Keywords>
+	
+	<Keywords color="keyword.jump">
+		<Word>break</Word>
+		<Word>continue</Word>
+		<Word>return</Word>
+		<Word>goto</Word>
+	</Keywords>
+	
+	<Keywords color="keyword.exceptions">
+		<Word>try</Word>
+		<Word>throw</Word>
+		<Word>catch</Word>
+	</Keywords>
+	
+	<Keywords color="keyword.modifier">
+		<Word>public</Word>
+		<Word>protected</Word>
+		<Word>private</Word>
+		
+		<Word>static</Word>
+		<Word>abstract</Word>
+	</Keywords>
+	
+	<Keywords color="keyword.declaration">
+		<Word>class</Word>
+		<Word>function</Word>
+	</Keywords>
+	
+	<Rule name="Comment">
+		<Keywords color="comment.keyword.todo" ignorecase="True">
+			<Word>TODO</Word>
+			<Word>FIXME</Word>
+			<Word>HACK</Word>
+			<Word>UNDONE</Word>
+		</Keywords>	
+	</Rule>
+</SyntaxMode>
